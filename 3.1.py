@@ -29,7 +29,7 @@ def right_justify(x):
 		last_letter = string[-1:]
 		print(' '*(70-len(x))+x)
 		print("Total length is: %s." %testlen)
-		print("location of last letter, {},  of your input is: {}".format(last_letter, (string.find(string[-1:])+1)))
+		print("location of last letter, {},  of your input is: {}".format(last_letter, (string.find(last_letter, 69))+1))
 	else:
 		print("Failed")
 x = input("input your word..  ")
